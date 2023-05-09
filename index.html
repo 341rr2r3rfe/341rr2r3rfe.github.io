@@ -275,7 +275,8 @@
                   </span>
                 </p>
                 <ul class="tabs controller uppercase bold ae-4 fromCenter" data-slider-id="60-1">
-                  <li class="selected">平地行走</li>
+                  <li class="selected">简介</li>
+                  <li>平地行走</li>
                   <li>盲走梯坎</li>
                   <li>鲁棒测试</li>
                   <li>Rviz可视化</li>
@@ -289,6 +290,11 @@
               <li class="col-6-12 left ae-5 fromCenter">
                 <ul class="slider animated margin-top-4" data-slider-id="60-1">
                   <li class="selected fromCenter">
+                    <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-0">
+                      <img class="wide" src="assets/img/bilibili_bk.png" alt="Video Thumbnail" />
+                    </div>
+                  </li>
+                  <li class="fromCenter">
                     <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-1">
                       <img class="wide" src="assets/img/p1.png" alt="Video Thumbnail" />
                     </div>
@@ -327,6 +333,28 @@
     </div>
     <div class="background" style="background-image:url(assets/img/background/background_s.png)"></div>
   </section>
+
+
+  <!-- Popup Video -->
+  <div class="popup autoplay" data-popup-id="60-0">
+    <div class="close"><svg>
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use>
+      </svg></div>
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="fix-10-12">
+            <div class="embedVideo popupContent">
+              <video controls muted controlslist="nodownload">
+                <source src="video/intro.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <!-- Popup Video -->
